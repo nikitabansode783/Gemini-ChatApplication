@@ -1,0 +1,11 @@
+-make a folder open in vs code
+-make four files (.env, app.py, requirements.txt, steps.txt(optional))
+-in .env file save your gemini api key
+-in app.py we have to code 
+-in requirements.txt write 1.streamlit 2.google-generativeai 3.python-dotenv 4.ipython
+-open terminal & type pip install -r requirements.txt to install neccessary modules
+-after this we have to setup environment(hope you installed anaconda already)
+   # in terminal type conda create -p venv python==3.10
+   # type conda activate venv/ to activate environment
+almost done
+-in app.py file write down the code & to run it type streamlit run app.py in terminal
